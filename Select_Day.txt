@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+
+
+
+int main ()
+{
+    
+    int gun;
+    
+    printf("bir gün gir");
+    scanf("%d",&gun);
+    
+    
+    switch(gun)
+    {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    
+    printf ( "hafta ici");
+    break;
+    
+    case 6:
+    case 7:
+    printf("hafta sonu");
+    break;
+    
+    default:
+    printf("farklı deger girdin");
+    }
+  return 0;
+}
