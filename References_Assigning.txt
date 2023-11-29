@@ -1,0 +1,19 @@
+
+#include <iostream>
+
+using namespace std;
+
+// Referans
+
+
+
+int main ()
+{
+  
+int sayi=10;
+int& deneme = sayi;
+deneme=30;
+std::cout << sayi << std::endl;
+
+  return 0;
+}
