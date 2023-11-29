@@ -1,0 +1,69 @@
+include <iostream>
+
+using namespace std;
+
+// Sanal Metot Kullan
+
+class tank {
+    public:
+    std:: string isim;
+    int uzunlugu;
+    virtual void ses1() = 0;
+    
+};
+
+
+class M20 : public tank{
+    
+    public:
+    
+    
+    int seritek;
+    int kurmapozisyonu;
+    
+   void ses1(){
+        std::cout << "bam" << std::endl;
+   }
+    };
+    
+    
+
+class M22 : public tank{
+    
+    protected:
+    int deger;
+    
+    public:
+    
+  
+    int seritek;
+    int kurmapozisyonu;
+    
+    void ses1 (){
+        std::cout << "pat" << std::endl;
+    }
+};
+
+ void ates(tank* pnttankk){
+        
+        
+        pnttankk->ses1();
+ }
+        
+
+
+
+
+int main ()
+{
+    M20 m20;
+   
+    M22 m22;
+   
+ ates(&m20);
+ ates(&m22);
+
+
+
+  return 0;
+}
