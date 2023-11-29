@@ -1,0 +1,49 @@
+include <iostream>
+
+using namespace std;
+// Class ile Throw  hata yakalama
+
+
+ 
+ class Hata {
+     
+     private :
+     std:: string message;
+     public :
+     
+     Hata (std::string msg) : message(msg){}
+     
+     std:: string yaz(){
+         return this->message;
+     }
+     
+     
+ };
+    
+  
+
+
+int main()
+{
+    int a,b, Bölüm;
+    std::cout << "sayi1 gir" << std::endl;
+    std::cin >> a;
+    std::cout << "sayi2 gir" << std::endl;
+    std::cin >> b;
+    try {
+    if (b<1){
+        
+        throw Hata("yanlıs");
+    }
+
+Bölüm= a/b;
+std::cout << Bölüm << std::endl;
+    return 0;}
+    
+
+
+catch(Hata err)
+{
+   std::cout << err.yaz()<<" bu sayi sıfıra bölünmez"<< std::endl; 
+}
+}

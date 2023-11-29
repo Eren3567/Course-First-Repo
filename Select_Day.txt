@@ -33,4 +33,4 @@ int main ()
     printf("farklı deger girdin");
     }
   return 0;
-}
+}Class
