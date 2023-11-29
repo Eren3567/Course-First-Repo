@@ -1,0 +1,72 @@
+i#include <iostream>
+
+using namespace std;
+
+// Metot Ezme
+class tank {
+    public:
+    std:: string isim;
+    int uzunlugu;
+     void ses1(){
+        std::cout << "tak" << std::endl;
+   }
+    
+};
+
+
+class M20 : public tank{
+    
+    public:
+
+    
+    int seritek;
+    int kurmapozisyonu;
+    
+   void ses1(){
+    tank::ses1();
+        std::cout << "bam" << std::endl;
+   }
+    };
+    
+    
+
+class M22 : public tank{
+    
+    protected:
+    int deger;
+    
+    public:
+    
+  
+    int seritek;
+    int kurmapozisyonu;
+    
+    void ses1 (){
+        std::cout << "pat" << std::endl;
+    }
+};
+
+// void ates(tank* pnttankk){
+        
+        
+//        pnttankk->ses1();
+ //}
+        
+
+
+
+
+int main ()
+{
+    M20 m20;
+   
+m20.ses1();
+
+
+
+
+
+
+  return 0;
+}
+
