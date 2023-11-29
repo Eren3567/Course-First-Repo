@@ -1,0 +1,48 @@
+#include <iostream>
+
+using namespace std;
+
+// kalıtım metot, protect- Tank tipi
+
+class tank {
+     std:: string isim;
+    int uzunlugu;
+};
+
+class M22 : public tank{
+    
+    protected:
+    int deger;
+    
+    public:
+    
+  
+    int seritek;
+    int kurmapozisyonu;
+};
+
+
+class M20{
+    
+    public:
+    
+    
+    int seritek;
+    int kurmapozisyonu;
+    
+
+};
+
+
+int main ()
+{
+    M20 m20;
+    m20.kurmapozisyonu =20;
+     std::cout << m20.kurmapozisyonu << std::endl;
+    M22 m22;
+    M22* klkl = &m22;
+   klkl->kurmapozisyonu=30;
+    std::cout << m22.kurmapozisyonu << std::endl;
+
+  return 0;
+}
