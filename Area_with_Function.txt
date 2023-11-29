@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+// nesneye yönelik alan hesaplama
+
+class  Hesapyap
+
+{
+public:
+   
+        int genislik;
+        int yükseklik;
+        int alan;
+        
+        
+ void giris (){
+     std::cout << "yükseklik gir" << std::endl;
+     std::cin >>yükseklik ;
+     
+      std::cout << "genislik gir" << std::endl;
+     std::cin >>genislik ;
+     
+     
+ }
+ 
+ 
+ void hesapla (){
+     
+     alan = yükseklik*genislik;
+     std::cout << alan << std::endl;
+     
+ }
+};
+int main()
+{
+   Hesapyap hesap;
+   
+   hesap.giris();
+   hesap.hesapla();
+   
+return 0;
+    
+}
