@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+// Throw ile hata yakalama
+
+std:: string hata(std::string error){
+    return error; 
+    
+}
+
+
+int main()
+{
+    int a,b, Bölüm;
+    std::cout << "sayi1 gir" << std::endl;
+    std::cin >> a;
+    std::cout << "sayi2 gir" << std::endl;
+    std::cin >> b;
+    try {
+    if (b<1){
+        
+        throw hata("yanlıs");
+    }
+
+Bölüm= a/b;
+std::cout << Bölüm << std::endl;
+    return 0;}
+    
+
+
+catch(std::string err)
+{
+   std::cout << err<<" bu sayi sıfıra bölünmez"<< std::endl; 
+}
+}
