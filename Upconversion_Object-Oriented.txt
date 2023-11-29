@@ -1,0 +1,54 @@
+#include <iostream>
+
+using namespace std;
+// Nesne yukarı dönüsüm
+class tank{
+    public:
+     std:: string isim;
+    int uzunlugu;
+};
+
+class M22 : public tank{
+    
+    protected:
+    int deger;
+    
+    public:
+    
+  
+    int seritek;
+    int kurmapozisyonu;
+};
+
+
+class M20 :public tank{
+    
+    public:
+    
+    
+    int seritek;
+    int kurmapozisyonu;
+    
+
+};
+
+
+int main ()
+{
+    M20 m20;
+    
+     tank* tankpnt = &m20;
+     tankpnt->uzunlugu = 28;
+
+std::cout << m20.uzunlugu << std::endl;
+    
+    
+    M22 m22;
+    M22* klkl = &m22;
+   klkl->kurmapozisyonu=30;
+    std::cout << m22.kurmapozisyonu << std::endl;
+
+     
+
+  return 0;
+}
