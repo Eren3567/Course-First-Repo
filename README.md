@@ -242,4 +242,25 @@ This structure outlines a C++ program demonstrating method overriding to provide
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Override.txt)
 
 
+# Exception Handling with Classes in C++
+
+This C++ program illustrates exception handling using classes, specifically demonstrating how to throw and catch exceptions using custom exception classes. It defines a `Hata` class to represent custom exceptions, which includes a message describing the error. The program attempts to perform division and throws a `Hata` object if the denominator is zero.
+
+__Features__
+
+- Custom Exception Class: The `Hata` class represents custom exceptions and includes a message describing the error.
+- Exception Throwing: The program throws a `Hata` object if the denominator is zero.
+- Exception Catching: The program catches and handles the custom exception, printing the error message.
+- Division Operation: The program performs division if the denominator is non-zero.
+
+## Usage
+
+1. **Input Numbers**: Enter two numbers, `a` and `b`.
+2. **Division Operation**: The program attempts to divide `a` by `b`.
+3. **Exception Handling**: If `b` is zero, a custom exception of type `Hata` is thrown.
+4. **Output**: The program prints the result of the division operation or handles the custom exception by printing the error message.
+
+This structure outlines a C++ program demonstrating exception handling using custom exception classes for division by zero errors.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Class_Throw.txt)
 
