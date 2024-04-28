@@ -111,3 +111,24 @@ This structure outlines the usage of enums to represent different levels within 
 [GitHub Repository Link](repository_link_here)
 
 
+# Object-Oriented Area Calculation
+
+This program calculates the area of a rectangle using object-oriented programming concepts in C++.
+
+__Features__
+
+- Object Creation: Defines a class `Hesapyap` to represent a rectangle and its area calculation.
+- User Input: Accepts user input for the height and width of the rectangle.
+- Area Calculation: Calculates the area of the rectangle using the provided height and width.
+- Output Display: Displays the calculated area of the rectangle.
+
+## Usage
+
+1. **Enter Height**: Input the height of the rectangle.
+2. **Enter Width**: Input the width of the rectangle.
+3. **View Result**: The program will calculate and display the area of the rectangle.
+
+
+This structure outlines a simple C++ program that demonstrates object-oriented area calculation for rectangles.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Area_with_Function.txt)
