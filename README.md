@@ -31,6 +31,10 @@ __Technologies Used__
 
 This simple calculator application allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It uses a `while` loop and a `goto` statement for operation handling.
 
+![Screenshot of Bank Application](https://github.com/Eren3567/Course-First-Repo/tree/main/image_1)
+
+
+
 __Features__
 
 - Perform Arithmetic Operations: Add, subtract, multiply, or divide two numbers.
