@@ -156,3 +156,22 @@ This structure outlines a simple C++ program that demonstrates inheritance and a
 
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Inheritance_Tank_Type.txt)
 
+# Reference in C++
+
+This C++ program demonstrates the usage of references. It defines an integer variable `sayi` and creates a reference `deneme` to it. 
+
+__Features__
+
+- Reference Creation: A reference `deneme` is created and initialized to refer to the integer variable `sayi`.
+- Reference Modification: The value of the reference `deneme` is modified, which in turn modifies the value of the original variable `sayi`.
+- Output: The program prints the updated value of the variable `sayi`.
+
+## Usage
+
+1. **Reference Creation**: A reference `deneme` is created and initialized to refer to the integer variable `sayi`.
+2. **Modification**: The value of the reference `deneme` is modified.
+3. **View Result**: The program prints the updated value of the original variable `sayi`.
+
+This structure outlines a simple C++ program that demonstrates the usage of references.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/References_Assigning.txt)
