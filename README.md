@@ -49,3 +49,24 @@ __Features__
 5. **Repeat or Stop**: Choose to continue with another operation or stop the program.
 
 [GitHub Repository Link](Switch_Case_Calculate.txt)
+
+# Day of the Week Checker
+
+This program allows users to input a number representing a day of the week (1-7) and then determines whether it's a weekday or weekend day. It utilizes a `switch` statement for efficient handling of different cases.
+
+__Features__
+
+- Determine Day Type: Weekday or weekend.
+- Error Handling: Provides feedback for invalid inputs.
+
+## Usage
+
+1. **Input Day Number**: Enter a number representing a day of the week (1-7).
+2. **Check Result**: The program will display whether the input corresponds to a weekday or a weekend day.
+3. **Repeat or Stop**: Choose whether to check another day or exit the program.
+
+
+This structure outlines the functionality, features, and usage instructions for a program that checks whether a given number corresponds to a weekday or a weekend day.
+
+[GitHub Repository Link](repository_link_here)
+
