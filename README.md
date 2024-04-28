@@ -286,4 +286,22 @@ This structure outlines a C++ program that demonstrates exception handling using
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Throw_Error.txt)
 
 
+# Template Usage in C++
+
+This C++ program demonstrates the usage of templates to define a generic function `max` that returns the maximum of two values of any data type.
+
+__Features__
+
+- Template Function: The `max` function is defined using a template, allowing it to work with any data type.
+- Maximum Value Calculation: The program calculates and returns the maximum value between two input values.
+- Data Type Flexibility: The template function can handle both integer and floating-point values.
+
+## Usage
+
+1. **Input Values**: Enter two values of any data type.
+2. **Maximum Calculation**: The program calculates and returns the maximum value between the two input values.
+
+This structure outlines a C++ program that demonstrates the usage of templates to define a generic function for calculating the maximum of two values of any data type.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Template.txt)
 
