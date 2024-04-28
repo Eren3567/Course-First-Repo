@@ -175,3 +175,28 @@ __Features__
 This structure outlines a simple C++ program that demonstrates the usage of references.
 
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/References_Assigning.txt)
+
+# Object Upcasting in C++
+
+This C++ program demonstrates object upcasting, where a derived class object is treated as a base class object. It defines two classes `tank` and `M20`, where `M20` is derived from `tank`. 
+
+__Features__
+
+- Object Creation: Instances of classes `M20` and `M22` are created.
+- Upcasting: An object of the derived class `M20` is upcasted to a pointer of the base class `tank`.
+- Access: The program accesses and modifies the member variable `uzunlugu` of the upcasted object.
+- Output: The program prints the updated value of the member variable `uzunlugu` of the original object.
+
+## Usage
+
+1. **Object Creation**: Instances of classes `M20` and `M22` are created.
+2. **Upcasting**: An object of the derived class `M20` is upcasted to a pointer of the base class `tank`.
+3. **Access and Modification**: The program accesses and modifies the member variable `uzunlugu` of the upcasted object.
+4. **View Result**: The program prints the updated value of the member variable `uzunlugu` of the original object.
+
+This structure outlines a simple C++ program that demonstrates object upcasting.
+
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Upconversion_Object-Oriented.txt)
+
+
