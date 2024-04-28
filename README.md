@@ -25,4 +25,4 @@ __Technologies Used__
 3. **Deposit Transaction**: Perform a deposit transaction to a specific account.
 4. **Save Data to File**: Save existing customer information to a specified file.
 
-[Github Link Here](https://github.com/Eren3567/Course-First-Repo/tree/main/Bank_Applicationen)
+[Github Link Here](Bank_Application)
