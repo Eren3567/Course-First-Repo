@@ -70,3 +70,24 @@ This structure outlines the functionality, features, and usage instructions for 
 
 [GitHub Repository Link](repository_link_here)
 
+# Exponential Calculator
+
+This program calculates the result of raising a given base number to a specified power using the `pow()` function from the `<math.h>` library. It prompts users to input the base and the exponent and then displays the result of the exponentiation.
+
+__Features__
+
+- Exponential Calculation: Calculates the result of raising a number to a power.
+- Input Validation: Accepts base and exponent inputs.
+- Error Handling: Provides feedback for invalid inputs.
+
+## Usage
+
+1. **Enter Base**: Input the base number.
+2. **Enter Exponent**: Input the exponent (power).
+3. **View Result**: The program will display the result of the exponentiation.
+4. **Repeat or Stop**: Choose whether to calculate another exponent or exit the program.
+
+[GitHub Repository Link]()
+
+This structure outlines the functionality, features, and usage instructions for a program that calculates the result of raising a number to a power using the `pow()` function.
+
