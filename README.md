@@ -264,3 +264,26 @@ This structure outlines a C++ program demonstrating exception handling using cus
 
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Class_Throw.txt)
 
+# Exception Handling with Throw in C++
+
+This C++ program demonstrates exception handling using the `throw` keyword to throw a string error message. It allows users to input two numbers and performs division, throwing and catching an exception if the divisor is zero.
+
+__Features__
+
+- Exception Throwing: The `hata` function throws a string error message if the divisor is zero.
+- Exception Handling: The program uses a try-catch block to catch exceptions thrown during division.
+- Division Operation: The program performs division of two numbers entered by the user.
+- Error Handling: If the divisor is zero, a string error message is thrown and caught, displaying an appropriate error message.
+
+## Usage
+
+1. **Input Numbers**: Enter two numbers, the dividend and the divisor.
+2. **Division**: The program performs the division operation.
+3. **Error Handling**: If the divisor is zero, a string error message is thrown and caught, displaying an appropriate error message.
+
+This structure outlines a C++ program that demonstrates exception handling using the `throw` keyword to throw and catch string error messages.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Throw_Error.txt)
+
+
+
