@@ -220,5 +220,26 @@ This structure outlines a C++ program demonstrating the usage of virtual methods
 
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Virtual_Methods.txt)
 
+# Method Overriding in C++
+
+This C++ program demonstrates method overriding, also known as method overriding, which allows a derived class to provide a specific implementation of a method that is already defined in its base class. It defines a base class `tank` with a method `ses1()`, and two derived classes `M20` and `M22` that override the `ses1()` method.
+
+__Features__
+
+- Method Overriding: The `ses1()` method is overridden in the derived classes `M20` and `M22` to provide specific implementations.
+- Base Class: The `tank` class serves as the base class with a generic implementation of the `ses1()` method.
+- Derived Classes: Two derived classes `M20` and `M22` are defined, each providing its own implementation of the `ses1()` method.
+- Function Call: The overridden method `ses1()` is called for an instance of the `M20` class, demonstrating method overriding.
+
+## Usage
+
+1. **Object Creation**: An instance of the `M20` class is created.
+2. **Method Call**: The `ses1()` method is called for the `M20` object.
+3. **Output**: The program outputs the result of calling the overridden method, which includes the base class implementation followed by the specific implementation of the derived class.
+
+This structure outlines a C++ program demonstrating method overriding to provide specific implementations of methods in derived classes.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Override.txt)
+
 
 
