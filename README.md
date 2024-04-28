@@ -132,3 +132,27 @@ __Features__
 This structure outlines a simple C++ program that demonstrates object-oriented area calculation for rectangles.
 
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Area_with_Function.txt)
+
+# Inheritance in Tank Class
+
+This C++ program demonstrates inheritance and access control in a tank class hierarchy. It defines a base class `tank` and two derived classes `M22` and `M20`. 
+
+__Features__
+
+- Base Class: `tank` class represents the basic properties of a tank, such as its name and length.
+- Derived Class: `M22` class inherits from `tank` and adds additional attributes such as `deger`, `seritek`, and `kurmapozisyonu`.
+- Access Control: The `deger` attribute is declared as `protected`, allowing access within the class and its subclasses.
+- Public Attributes: The `seritek` and `kurmapozisyonu` attributes are declared as public in both derived classes.
+- Object Creation: Objects of classes `M22` and `M20` are created, and their attributes are accessed and modified.
+
+## Usage
+
+1. **Object Creation**: Objects of classes `M22` and `M20` are created.
+2. **Attribute Modification**: Attributes of the objects are modified.
+3. **View Result**: The program displays the modified attribute values.
+
+
+This structure outlines a simple C++ program that demonstrates inheritance and access control in a tank class hierarchy.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Inheritance_Tank_Type.txt)
+
