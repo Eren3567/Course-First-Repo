@@ -26,3 +26,22 @@ __Technologies Used__
 4. **Save Data to File**: Save existing customer information to a specified file.
 
 [Github Link Here](Bank_Application)
+
+# Arithmetic Operation Calculator
+
+This simple calculator application allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It uses a `while` loop and a `goto` statement for operation handling.
+
+__Features__
+
+- Perform Arithmetic Operations: Add, subtract, multiply, or divide two numbers.
+- Continue Operation: Allows users to continue performing operations until manually stopped.
+
+## Usage
+
+1. **Enter First Number**: Input the first number for the operation.
+2. **Enter Second Number**: Input the second number for the operation.
+3. **Select Operation**: Choose the desired arithmetic operation (`+`, `-`, `*`, `/`).
+4. **View Result**: The result of the operation will be displayed.
+5. **Repeat or Stop**: Choose to continue with another operation or stop the program.
+
+[GitHub Repository Link](Switch_Case_Calculate.txt)
