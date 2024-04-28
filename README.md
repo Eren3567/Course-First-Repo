@@ -199,4 +199,26 @@ This structure outlines a simple C++ program that demonstrates object upcasting.
 
 [GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Upconversion_Object-Oriented.txt)
 
+# Virtual Method Usage in C++
+
+This C++ program demonstrates the usage of virtual methods, which allows polymorphic behavior in a program. It defines two classes `tank` and its derived classes `M20` and `M22`. The `tank` class has a pure virtual method `ses1()`, which is overridden in the derived classes.
+
+__Features__
+
+- Polymorphic Behavior: The program uses virtual methods to achieve polymorphic behavior.
+- Abstract Class: The `tank` class acts as an abstract class with a pure virtual method.
+- Derived Classes: Two derived classes `M20` and `M22` are defined, each implementing the `ses1()` method differently.
+- Function Call: A function `ates()` is defined that takes a pointer to the base class `tank` and calls the `ses1()` method.
+
+## Usage
+
+1. **Object Creation**: Instances of classes `M20` and `M22` are created.
+2. **Function Call**: The `ates()` function is called with pointers to objects of both `M20` and `M22` classes.
+3. **Polymorphic Behavior**: The virtual method `ses1()` is invoked for each object, resulting in different outputs based on the actual type of the object.
+
+This structure outlines a C++ program demonstrating the usage of virtual methods to achieve polymorphic behavior.
+
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Virtual_Methods.txt)
+
+
 
