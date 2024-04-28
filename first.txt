@@ -1,22 +1,18 @@
 #include <stdio.h>
 #include <math.h>
-int
-main ()
-{
-  double taban,kuvvet,sonuc;
+
+int main() {
+    double base, exponent, result;
   
-  
-printf("tabanı gir");
-scanf("%lf",&taban);
+    printf("Enter the base: ");
+    scanf("%lf", &base);
 
-printf("kuvvet gir");
-scanf("%lf", & kuvvet);
+    printf("Enter the exponent: ");
+    scanf("%lf", &exponent);
 
-sonuc = pow(taban,kuvvet);
+    result = pow(base, exponent);
 
-printf("%.2lf^ %.2lf= %lf", taban,sonuc,kuvvet);
+    printf("%.2lf ^ %.2lf = %.2lf\n", base, exponent, result);
 
-
-
-  return 3;
+    return 0;
 }
