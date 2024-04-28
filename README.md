@@ -91,3 +91,23 @@ __Features__
 
 This structure outlines the functionality, features, and usage instructions for a program that calculates the result of raising a number to a power using the `pow()` function.
 
+# Enum Example: Application Levels
+
+This program demonstrates the use of enums in C to represent different application levels. It defines three levels: low, medium, and high, each with a corresponding numeric value.
+
+__Features__
+
+- Enum Definition: Defines three application levels using the `enum` keyword.
+- Value Assignment: Assigns integer values to each enum member.
+- Enum Initialization: Initializes a variable with one of the enum values.
+
+## Usage
+
+The program initializes a variable `uygulamasi` with the value corresponding to the "medium" level (`orta`). It then prints the numeric value associated with the "medium" level.
+
+
+This structure outlines the usage of enums to represent different levels within an application, along with their corresponding integer values.
+
+[GitHub Repository Link](repository_link_here)
+
+
