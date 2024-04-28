@@ -68,7 +68,7 @@ __Features__
 
 This structure outlines the functionality, features, and usage instructions for a program that checks whether a given number corresponds to a weekday or a weekend day.
 
-[GitHub Repository Link](repository_link_here)
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Select_Day.txt)
 
 # Exponential Calculator
 
@@ -87,7 +87,7 @@ __Features__
 3. **View Result**: The program will display the result of the exponentiation.
 4. **Repeat or Stop**: Choose whether to calculate another exponent or exit the program.
 
-[GitHub Repository Link]()
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/first.txt)
 
 This structure outlines the functionality, features, and usage instructions for a program that calculates the result of raising a number to a power using the `pow()` function.
 
@@ -108,7 +108,7 @@ The program initializes a variable `uygulamasi` with the value corresponding to 
 
 This structure outlines the usage of enums to represent different levels within an application, along with their corresponding integer values.
 
-[GitHub Repository Link](repository_link_here)
+[GitHub Repository Link](https://github.com/Eren3567/Course-First-Repo/blob/main/Enum.txt)
 
 
 # Object-Oriented Area Calculation
